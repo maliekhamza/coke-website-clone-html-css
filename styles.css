@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+#nav{
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 140px;
+    /* background-color: red; */
+}
+#nav-prt2{
+    /* margin-top: ; */
+    /* background-color: blue; */
+    width: 53%;
+    display: flex;
+    justify-content: space-between;
+}
+#nav h1{
+    margin-left: 5px;
+    font-size: 20px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+}
+#nav>i{
+    font-size: 20px;
+}
+#nav h5{
+    font-weight: 600;
+    margin-top: 14px;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+#nav img{
+    height: 50px;
+}
+#line{
+    margin-top:22px;
+    width: 70px;
+    height: 2px;
+    background-color: red;
+}
+#content{
+    display: flex;
+    height:calc(100% - 140px);
+    width: 100%;
+    /* background-color: skyblue; */
+    justify-content: space-between;
+    position: relative;
+}
+#left{
+    margin-right: 98px;
+    width: 30%;
+    height: 100%;
+    /* background-color: red; */
+    padding: 100px 80px;
+}
+#left h1{
+    width: 400px;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+#left h1 span {
+    color: red;
+    font-weight: 500;
+}
+#left p{
+    margin-bottom: 50px;
+    line-height: 22px;
+    font-size: 14px;
+    width: 400px;
+}
+#left button{
+    border-radius: 50px;
+    background-color: red;
+    padding: 14px 35px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+#left button i{
+    margin-right: 10px;
+}
+#center{
+    width: 26%;
+    height: 100%;
+    /* background-color:red; */
+    padding-top: 60px;
+}
+#center-bg{
+    border-top-left-radius: 1000px;
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+    background-image: url(https://www.coca-cola.com/content/dam/onexp/xf/en/homepage/carousel/ar_coca-cola_header05_desktop_coca-cola-acquires-costa-coffee_1440x810_v1.jpg);
+    background-size: 450%;
+    background-position: 30% 40%;
+    height: 90%;
+    width: 100%;
+    background-color: blueviolet;
+    filter: blur(8px);
+}
+#right{
+    width: 36%;
+    height: 100%;
+    /* background-color: gray; */
+    padding: 250px 140px;
+}
+#content>img{
+    height: 100%;
+    position: absolute;
+    left: 52%;
+    transform: translate(-52.5%,0);
+}
+#right-elems{
+    /* background-color: red; */
+    width: 350px;
+}
+#elem1{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    /* background-color: blue; */
+    border-bottom: 1px solid white;
+    opacity: 0.6;
+}
+#elem1 h1{
+    font-size: 15px;
+    font-weight: 600;
+}
+#elem1 i{
+    font-size: 15px;
+}
+#elem2 h1{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px ;
+    padding-top: 15px;
+}
+#elem2 p{
+    font-size:10px;
+    width: 80%;
+    opacity: 0.6;
+}
